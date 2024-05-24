@@ -1,4 +1,5 @@
 # Табель успеваемости. Пользователь в
+
 # бесконечном цикле (пока не будет введена пустая строка)
 # вводит строки вида: 'название предмета'
 # 'фамилия ученика' 'оценка'.
@@ -69,5 +70,3 @@ for subject in my_dict.keys():
     print(subject)
     for name in my_dict[subject].keys():
         print(f'{name} {my_dict[subject][name]}')
-
-
